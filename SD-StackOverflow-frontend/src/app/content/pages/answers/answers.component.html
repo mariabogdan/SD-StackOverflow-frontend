@@ -1,0 +1,39 @@
+<nav-bar></nav-bar>
+
+<button class="btn btn-default" (click) = "test()" >Back</button>
+
+
+<div class="container">
+
+  <h1> All answers </h1>
+  <hr/>
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Content</th>
+      <th>Votes</th>
+
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let answer of answersArray">
+      <td>{{ answer.content }}</td>
+      <td>{{ answer.votes }}</td>
+
+      <td>
+        <div class="crudButtons">
+
+          <button type="button" class="btn btn-primary">Edit</button>
+          <button type="button" class="btn btn-primary">Delete</button>
+          <button type="button" class="btn btn-primary">Like</button>
+          <button type="button" class="btn btn-primary">Dislike</button>
+
+
+        </div>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

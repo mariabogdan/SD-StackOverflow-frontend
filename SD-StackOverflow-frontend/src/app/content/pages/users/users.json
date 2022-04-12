@@ -1,0 +1,86 @@
+[
+  {
+    "userId": 1,
+    "email": "maria_bogdan@yahoo.com",
+    "username": "maria3",
+    "password": "$2a$10$HIycxtTue1jGF51vGXuUwurocreTOnOPIU61c3gfMycUirnVuMozK",
+    "userEnabled": true,
+    "questions": [
+      4,
+      2,
+      1,
+      3,
+      5
+    ],
+    "answers": [
+      3
+    ]
+  },
+  {
+    "userId": 2,
+    "email": "maria_bogdan@yahoo.com",
+    "username": "maria4",
+    "password": "$2a$10$rnJ2P/Jiw/t.Vu2qkNMlG.kwLi6K.Apk0/Gdy4kf.jI0tXdCCeOqy",
+    "userEnabled": true,
+    "questions": [
+      7
+    ],
+    "answers": [
+      4
+    ]
+  },
+  {
+    "userId": 3,
+    "email": "maria_bogdan@yahoo.com",
+    "username": "maria7",
+    "password": "$2a$10$XlEXpNX/xnkiZoqJzgHuC./9JLz8VotbVgmxMl80da4lmZkcKKtF.",
+    "userEnabled": true,
+    "questions": [],
+    "answers": []
+  },
+  {
+    "userId": 4,
+    "email": "maria@yahoo.com",
+    "username": "maria8",
+    "password": "$2a$10$XlEXpNX/xnkiZoqJzgHuC./9JLz8VotbVgmxMl80da4lmZkcKKtF.",
+    "userEnabled": true,
+    "questions": [],
+    "answers": []
+  },
+  {
+    "userId": 5,
+    "email": "bogdan@yahoo.com",
+    "username": "bogdan1",
+    "password": "$2a$10$XlEXpNX/xnkiZoqJzgHuC./9JLz8VotbVgmxMl80da4lmZkcKKtF.",
+    "userEnabled": true,
+    "questions": [],
+    "answers": []
+  },
+  {
+    "userId": 6,
+    "email": "john@yahoo.com",
+    "username": "john",
+    "password": "$2a$10$XlEXpNX/xnkiZoqJzgHuC./9JLz8VotbVgmxMl80da4lmZkcKKtF.",
+    "userEnabled": true,
+    "questions": [],
+    "answers": []
+  },
+  {
+    "userId": 7,
+    "email": "mary@yahoo.com",
+    "username": "mary",
+    "password": "$2a$10$XlEXpNX/xnkiZoqJzgHuC./9JLz8VotbVgmxMl80da4lmZkcKKtF.",
+    "userEnabled": true,
+    "questions": [],
+    "answers": []
+  },
+  {
+    "userId": 8,
+    "email": "lisa@yahoo.com",
+    "username": "lisa",
+    "password": "$2a$10$XlEXpNX/xnkiZoqJzgHuC./9JLz8VotbVgmxMl80da4lmZkcKKtF.",
+    "userEnabled": true,
+    "questions": [],
+    "answers": []
+  }
+]

@@ -1,0 +1,39 @@
+<nav-bar></nav-bar>
+
+<button class="btn btn-default" (click) = "test()" >Back</button>
+
+
+<div class="container">
+
+  <h1> Users </h1>
+  <hr/>
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Score</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{ user.username }}</td>
+      <td>{{ user.email }}</td>
+      <td>0</td>
+
+
+      <td>
+      <div class="crudButtons">
+
+        <button type="button" class="btn btn-primary">Delete</button>
+        <button type="button" class="btn btn-primary">Ban</button>
+
+
+      </div>
+    </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

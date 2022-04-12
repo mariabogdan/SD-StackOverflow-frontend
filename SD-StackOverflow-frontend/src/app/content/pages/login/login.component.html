@@ -1,0 +1,36 @@
+<nav-bar></nav-bar>
+
+<button class="btn btn-default" (click) = "test()" >Cancel</button>
+
+<div class="center_container">
+  <h1>Login</h1>
+  <p>Please enter your email and password</p>
+
+
+  <form>
+    <div class="email">
+      <i class="fa fa-envelope icon"></i>
+      <input type="text" name="email" placeholder="Email" formControlName="email"/>
+
+    </div>
+
+
+    <div class="password">
+      <i class="fa fa-lock icon"></i>
+      <input type="password" name="password" placeholder="Password" formControlName="password"/>
+
+    </div>
+
+
+
+  </form>
+
+  <div class="login-func">
+    <a href="#">Forgot password?</a>
+    <button>Login</button>
+  </div>
+
+  <div class="register-sec">
+    <p>Not a member yet?   <a routerLink="/register">Register!</a></p>
+  </div>
+</div>

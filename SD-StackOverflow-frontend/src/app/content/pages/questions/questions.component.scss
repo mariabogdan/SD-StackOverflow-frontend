@@ -1,0 +1,28 @@
+.crudButtons {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.addButton {
+  display: flex;
+  align-items: center !important;
+}
+
+.button{
+  margin:auto;
+  display:block;
+  width: 20%;
+  padding: 18px 20px;
+  border: 1px solid dodgerblue;
+  border-radius: 4px;
+  color:white;
+  box-sizing: border-box;
+  background-color: dodgerblue;
+  font-family: Poppins;
+  border-radius: 25px;
+  margin-top: 20px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}

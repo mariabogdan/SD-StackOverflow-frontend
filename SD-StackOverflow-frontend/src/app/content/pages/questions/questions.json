@@ -1,0 +1,32 @@
+[
+  {
+    "questionId": 1,
+    "title": "Math issue",
+    "content": "How can I calculate the nth digit of PI in C language",
+    "timestamp": "2022-03-05T14:20:00.000+00:00",
+    "authorId": 1,
+    "tags": ["math","pi"],
+    "votes": 0
+  },
+
+  {
+    "questionId": 2,
+    "title": "Java error",
+    "content": "How can I eliminate this error?",
+    "timestamp": "2022-03-05T14:20:00.000+00:00",
+    "authorId": 1,
+    "tags": ["code","java"],
+    "votes": 0
+  },
+
+  {
+    "questionId": 3,
+    "title": "Python issue",
+    "content": "How can I calculate the nth digit of PI in Python language",
+    "timestamp": "2022-03-05T14:11:37.000+00:00",
+    "authorId": 1,
+    "tags": ["code","python", "PI"],
+    "votes": 6
+  }
+
+]

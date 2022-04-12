@@ -1,0 +1,37 @@
+[
+  {
+    "answerId": 1,
+    "content": "The answer is not easy to be found...",
+    "timestamp": "2022-03-05T14:20:00.000+00:00",
+    "authorId": 1,
+    "questionId": 1,
+    "votes": 3
+  },
+
+  {
+    "answerId": 4,
+    "content": "Stupid question!",
+    "timestamp": "2022-03-05T14:20:00.000+00:00",
+    "authorId": 2,
+    "questionId": 1,
+    "votes": 0
+  },
+
+  {
+    "answerId": 2,
+    "content": "Index 5 out of bounds for length 5",
+    "timestamp": "2022-03-05T14:20:00.000+00:00",
+    "authorId": 2,
+    "questionId": 1,
+    "votes": 0
+  },
+
+  {
+    "answerId": 2,
+    "content": "Converting Audioinputstream BACK to InputStream",
+    "timestamp": "2022-03-05T14:20:00.000+00:00",
+    "authorId": 2,
+    "questionId": 1,
+    "votes": 0
+  }
+]

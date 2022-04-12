@@ -1,0 +1,176 @@
+
+.register-main-container{
+  background-image: linear-gradient(#0574E5, #021C7A);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+}
+
+.top_left_logo{
+  position:absolute;
+  height:150px;
+  width:20%;
+  top: 3%;
+  left:3%;
+  img{
+
+    width:100%;
+
+  }
+}
+
+.centered{
+  position: absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:40%;
+  color:white;
+  font-family:Poppins;
+  font-size: large;
+  display:justify;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px){
+  .centered{
+    width:70%;
+    left:45%;
+    top:45%;
+  }
+}
+
+
+a:visited{
+  color:#6C9EDD;
+  text-decoration: none;
+}
+
+a:active{
+  color:blue;
+  text-decoration: none;
+}
+
+a:hover{
+  color:lightseagreen;
+  text-decoration: none;
+}
+
+.title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.error-message{
+  color: orangered;
+}
+
+.text_input{
+  margin:auto;
+  display:block;
+  width: 50%;
+  padding: 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin-top: 15px;
+  padding-left: 60px;
+  outline: none;
+}
+
+.button_signup{
+  margin:auto;
+  display:block;
+  width: 50%;
+  padding: 18px 20px;
+  border: 1px solid dodgerblue;
+  border-radius: 4px;
+  color:white;
+  box-sizing: border-box;
+  background-color: dodgerblue;
+  font-family: Poppins;
+  border-radius: 25px;
+  margin-top: 20px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.invalid-mail i{
+  position: absolute;
+  left:73%;
+  top:34%;
+  font-size:20px;
+  color:red;
+}
+
+.invalid-username i{
+  position: absolute;
+  left:73%;
+  top:47%;
+  font-size:20px;
+  color:red;
+}
+
+.invalid-password i{
+  position: absolute;
+  left:73%;
+  top:60.5%;
+  font-size:20px;
+  color:red;
+}
+
+.button_signup:hover {
+  background: #0356b4;
+}
+
+.input-icons i {
+  position: absolute;
+  left:26%;
+  font-size: 30px;
+  color:#C2C2C2;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 11px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.circle{
+  position:absolute;
+  width: 25%;
+  height:50%;
+  border-radius: 50%;
+  border: 1px solid #0573E3;
+}
+.circle1{
+  top:64%;
+  left:-10%;
+}
+.circle2{
+  top:67%;
+  left:-6%;
+}
+
+.terms-text{
+  margin-top:15px;
+}
+

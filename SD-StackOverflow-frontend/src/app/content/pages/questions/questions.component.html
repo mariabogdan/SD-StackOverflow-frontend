@@ -1,0 +1,61 @@
+<nav-bar></nav-bar>
+
+<button class="btn btn-default" (click) = "test()" >Back</button>
+
+
+<div class="container">
+
+  <h1> All questions </h1>
+  <div class="addButton">
+
+    <form id="searchForm"  class="navbar-form navbar-right"  >
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search question" >
+      </div>
+      <button class="btn btn-default" >
+        Search
+      </button>
+    </form>
+
+    <button type="button" class="button">Ask question</button>
+    <button type="button" class="button">Sort</button>
+
+
+
+  </div>
+  <hr/>
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Title</th>
+      <th>Content</th>
+      <th>#Tags</th>
+      <th>Votes</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let question of questionsArray">
+      <td>{{ question.title }}</td>
+      <td>{{ question.content }}</td>
+      <td>{{ question.tags }}</td>
+      <td>{{ question.votes }}</td>
+
+
+      <td>
+        <div class="crudButtons">
+
+          <button type="button" class="btn btn-primary">Edit</button>
+          <button type="button" class="btn btn-primary">Delete</button>
+          <button type="button" class="btn btn-primary">Like</button>
+          <button type="button" class="btn btn-primary">Dislike</button>
+          <button type="button" class="btn btn-primary">View answers</button>
+
+
+        </div>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

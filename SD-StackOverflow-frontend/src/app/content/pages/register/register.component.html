@@ -1,0 +1,36 @@
+<nav-bar></nav-bar>
+
+<button class="btn btn-default" (click) = "test()" >Cancel</button>
+
+<div class="centered">
+  <h1 class="title">Create account</h1>
+  <p>Already have an account?
+    <a routerLink="/login">Sign in</a>
+  </p>
+
+  <form>
+    <div class ="input-icons">
+      <i class="fa fa-envelope icon"></i>
+      <input class="text_input" type="text" formControlName="email" placeholder="Email address"/>
+    </div>
+
+    <div class="input-icons">
+      <i class="fa fa-user icon"></i>
+      <input class="text_input" type = "text" formControlName="username" placeholder="Username"/>
+    </div>
+
+    <div class="input-icons">
+      <i class="fa fa-key icon"></i>
+      <input class="text_input" type="password" formControlName="password" placeholder="Password"/>
+    </div>
+  </form>
+
+  <button class="button_signup"  id="signupButton">Sign up</button>
+
+  <div class="terms-text" >
+    <input type="checkbox" formControlName="termsCheckbox"/>
+    <label>I have read and agree
+      <a href="https://www.w3schools.com/">Terms of Service</a> <!-- Temporary link -->
+    </label>
+  </div>
+</div>
